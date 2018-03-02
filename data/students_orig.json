@@ -1,0 +1,95 @@
+{
+    "students": [
+        {
+            "roll_no": "BSEF14A051",
+            "name": "Adil Aziz",
+            "title": "Backend Developer",
+            "image":"https://graph.facebook.com/v2.11/100001633757789/picture?height=500",
+            "email":"adil.j13@gmail.com",
+            "url":"http://adilaziz.tk",
+            "linkedin":"https://linkedin.com/in/adilj13",
+            "github":"https://github.com/adilj13",
+            "about":"as kdj aks jdk asj da lksj dkas jdks jdk sjk sajd ksj",
+            "languages":["English","Urdu","Punjabi"],
+            "interests":["Traveling","Cricket","Reading"],
+            "education":[
+              {
+                "degree":"BS Software Engineering",
+                "institute":"Punjab University College of Information Technology",
+                "location":"Lahore",
+                "from":"2014",
+                "till":"present",
+                "description":"Majoring in Web development."
+              },
+              {
+                "degree":"FSc (Pre-Engineering)",
+                "institute":"Superior College of Sciences",
+                "location":"Okara",
+                "from":"2012",
+                "till":"2014",
+                "description":""
+              }
+            ],
+            "experiences":[
+              {
+                "job_title":"Full Stack Developer",
+                "company":"Tachyon Innovations",
+                "location":"Lahore",
+                "from":"2016",
+                "till":"present",
+                "description":"Working on many php projects including Google Maps APIs."
+              },
+              {
+                "job_title":"Web Developer",
+                "company":"AA Solutions",
+                "location":"Lahore",
+                "from":"2015",
+                "till":"2016",
+                "description":"Worked on develpment of many websites including wordpress."
+              }
+            ],
+            "projects":[
+              {
+                "name":"DMMS",
+                "link":"https://github.com/adilj13/dmms",
+                "description":"An app for people living in groups to manage their expences in group.",
+                "technologies":["PHP","Bootstrap"]
+              },
+              {
+                "name":"MicroHRM",
+                "link":"https://github.com/adilj13/MicroHRM",
+                "description":"MicroHRM is HRMS built with the focus on small business employers. MicroHRM is built using Codeignitor in PHP.",
+                "technologies":["PHP","Bootstrap"]
+              },
+              {
+                "name":"MicroPOS",
+                "link":"#",
+                "description":"MicroPOS is POS System built with the focus on small businesses.",
+                "technologies":["Java","JSP","Bootstrap"]
+              }
+            ],
+            "skills":[
+              {
+                "name":"PHP/Codeignitor",
+                "scale":"95"
+              },
+              {
+                "name":"HTML5/CSS",
+                "scale":"90"
+              },
+              {
+                "name":"Bootstrap",
+                "scale":"90"
+              },
+              {
+                "name":"JS/Nodejs",
+                "scale":"80"
+              },
+              {
+                "name":"JS/Vuejs",
+                "scale":"70"
+              }
+            ]
+        }
+    ]
+}
