@@ -60,16 +60,20 @@ html {
 .button:hover {
   background-color: #555;
 }
+
 </style>
 </head>
 <body>
 
-<h2>BSEF14A051</h2>
-<p>Software Engineers of Darkness.</p>
+<h2 align="center">BSEF14A</h2>
+<p align="center">Software Engineers of Darkness.</p>
 <br>
 
 <div class="row" id="main">
 </div>
+
+<hr wdith="100%">
+<p align="center">&copy; BSEF14A | Powered by GitHub</p>
 
 <script type="text/javascript">
 $.getJSON( "http://bsef14a.tk/data/students.json", function( data ) {
@@ -77,7 +81,7 @@ console.log(data);
 data=data.students;
   var items = [];
   $.each( data, function( key, val ) {
-    items.push( "<div class='column'><div class='card'><img src='https://graph.facebook.com/"+val.facebook+"/picture?width=500' alt='"+val.name+"' style='width:100%'><div class='container'><h2>"+val.name+"</h2><p class='title'>"+val.roll_no+"</p><p>example@example.com</p><p><a class='button' href='"+val.roll_no.substr(7)+".pdf'>View CV</a></p></div></div></div>");
+    items.push( "<div class='column'><div class='card'><img src='https://graph.facebook.com/"+val.facebook+"/picture?width=300&height=300' alt='"+val.name+"' style='width:100%'><div class='container'><h2>"+val.name+"</h2><p class='title'>"+val.roll_no+"</p><p>"+val.roll_no.toLowerCase()+"@pucit.edu.pk</p><p><a class='button' href='"+val.roll_no.substr(7)+".pdf'>View CV</a></p></div></div></div>");
   });
  
   $("#main").html(items.join(""));
