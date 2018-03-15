@@ -96,7 +96,7 @@ console.log(data);
 data=data.students;
   var items = [];
   $.each( data, function( key, val ) {
-    items.push( "<div class='column'><div class='card'><img src='https://graph.facebook.com/"+val.facebook+"/picture?width=300&height=300' alt='"+val.name+"' style='width:100%'><div class='container'><h3>"+val.name+"</h3><p class='title'>"+val.roll_no+"</p><p>"+val.roll_no.toLowerCase()+"@pucit.edu.pk</p><p><a class='button' href='"+val.roll_no.substr(7)+".pdf'>View CV</a></p></div></div></div>");
+    items.push( "<div class='column'><div class='card'><img src='//graph.facebook.com/"+val.facebook+"/picture?width=300&height=300' alt='"+val.name+"' style='width:100%'><div class='container'><h3>"+val.name+"</h3><p class='title'>"+val.roll_no+"</p><p>"+val.roll_no.toLowerCase()+"@pucit.edu.pk</p><p><a class='button' href='"+val.roll_no.substr(7)+".pdf'>View CV</a></p></div></div></div>");
   });
  
   $("#main").html(items.join(""));
